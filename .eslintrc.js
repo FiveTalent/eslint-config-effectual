@@ -23,12 +23,7 @@ module.exports = {
     'no-alert': 0,
     'no-await-in-loop': 0,
     'no-return-assign': ['error', 'except-parens'],
-    'no-restricted-syntax': [
-      2,
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
+    'no-restricted-syntax': [2, 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-unused-vars': [
       1,
       {
@@ -107,7 +102,8 @@ module.exports = {
       {
         trailingComma: 'es5',
         singleQuote: true,
-        printWidth: 80,
+        printWidth: 120,
+        arrowParens: 'avoid',
         // below line only for windows users facing CLRF and eslint/prettier error
         // non windows users feel free to delete it
         endOfLine: 'auto',
