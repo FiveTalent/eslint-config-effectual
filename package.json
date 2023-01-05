@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-wesbos",
+  "name": "eslint-config-effectual",
   "version": "3.1.5-beta.4",
-  "description": "ESLint and Prettier Config from Wes Bos",
+  "description": "ESLint and Prettier Config",
   "keywords": [
     "javascript",
     "typescript",
@@ -13,8 +13,11 @@
     "prettier"
   ],
   "main": "index.js",
-  "repository": "git@github.com:wesbos/eslint-config-wesbos.git",
-  "author": "Wes bos <wes@wesbos.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fivetalent/eslint-config-effectual.git"
+  },
+  "author": "Jeff Finley <jeff.finley@effectual.com>",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^8.0.0",
@@ -48,5 +51,9 @@
     "lint:fix": "eslint --fix",
     "bump:beta": "npm version prerelease --preid beta",
     "publish:beta": "npm publish --tag beta"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fivetalent/eslint-config-effectual/issues"
+  },
+  "homepage": "https://github.com/fivetalent/eslint-config-effectual#readme"
 }
